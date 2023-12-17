@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    margin-left: 42px;
+}
+
+.a-header {
+    color: #17233D;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.875px;
+    margin-right: 32px;
+    margin-top: 47px;
+    cursor: pointer;
+}
+
+.a-header:hover {
+    text-decoration: underline; 
+    background:#ffffcc; 
+    zoom: 1.2;
+}
+
+.a-header:active{
+    text-decoration: none;
+    opacity: .5;
+}
+
+.bt-header {
+    width: 124px;
+    height: 51px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 1px;
+    border-radius: 6px;
+    border: 1px solid #4CB538;
+    background: #6FBF44;
+    margin-top: 32px;
+    cursor: pointer;
+}
+
+.bt-header:hover {
+    opacity: .8;
+}
+
+.bt-header:active {
+    opacity: .5;
+}
+
+div {
+    display: inline-block;
+}
+.img-congratulation {
+    
+    margin-left: 121px;
+    margin-top: 163px;
+    width: 595px;
+    height: 500px;
+}
+
+.section-article {
+    display: inline-block;
+    margin-left: 85px;
+}
+
+h1 {
+    width: 582px;
+    color: #161A49;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 82px;
+    letter-spacing: 0.596px;
+}
+
+p{
+    width: 493px;
+    color: #4B505A;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    margin-top: 47px;
+    margin-bottom: 55px;
+}
+
+.a-section {
+    color: #6FBF44;
+font-size: 18px;
+font-weight: 500;
+line-height: 27px;
+letter-spacing: 1px;
+cursor: pointer;
+}
+
+.a-section:hover {
+    zoom: 1.2;
+    text-decoration: underline;
+}
+
+.a-section:active {
+    text-decoration: none;
+    opacity: .7;
+}
+
+
+ /*         Responsividade*/
+ /*         Responsividade*/
+ /*         Responsividade*/
+
+@media screen and (max-width: 1390px) {
+    .a-header {
+        display: none;
+    }
+
+    .bt-header {
+        position: absolute;
+        top: 10px;
+        left: 80%;
+    }
+
+    .section-article {
+        display: block;
+        width: auto;
+    }
+
+    h1 {
+        width: 278px;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 0.596px;
+    }
+
+    p{
+        width: 304px;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 33px;
+        letter-spacing: 0.5px;
+    }
+
+    .a-section {
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+        letter-spacing: 1px;
+    }
+
+    div{
+        display: block;
+        position: relative;
+        top: 58%;
+        width: auto;
+    }
+
+    .img-congratulation {
+        width: 312px;
+        height: 288px;
+    }
+
+
+
+}
